@@ -2,6 +2,15 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: ns-anthos-demo-1
-  name: ns-anthos-demo-2
-  name: ns-anthos-demo-3
+  name: ns-anthos-demo-production
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ns-anthos-demo-staging
+
+#---
+#apiVersion: v1
+#kind: Namespace
+#metadata:
+#  name: ns-anthos-demo-devops
